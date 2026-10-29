@@ -1,0 +1,17 @@
+[project]
+name = "ranknet-ppf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Chingi-En", email = "3165249311@qq.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+ranknet-ppf = "ranknet_ppf:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
